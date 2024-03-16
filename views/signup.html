@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="font-comfortaa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/external.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <title>HavenFoods - Sign Up</title>
+</head>
+<body class="flex items-center justify-center height">
+    <div class="container fcolor">
+        <div class="flex justify-center w-1/2 h-full bg-white rounded-l-lg">
+            <form action="" class="relative flex h-full w-4/6 overflow-hidden trans">
+                <section id="Form1" class="absolute flex flex-col justify-center w-full h-full trans">
+                    <h1 class="text-2xl font-bold text-center">Sign up</h1><br>
+                    <input type="text" class="field" placeholder="Full Names" autocomplete="off" aria-autocomplete="none"><br>
+                    <input type="email" class="field" placeholder="E-mail" autocomplete="off" aria-autocomplete="none"><br>
+                    <input type="password" class="field" placeholder="Password" autocomplete="off" aria-autocomplete="none"><br>
+                    <button id="Next" type="button" class="btn">Next</button>
+                    <a class="text-right mt-1 mr-2" href="signin.html"><span class="cursor-pointer text-sm">Got an account?</span></a>
+                </section>
+                <section id="Form2" class="absolute left-full flex flex-col justify-center w-full h-full trans">
+                    <h1 class="text-2xl font-bold text-center">Address</h1><br>
+                    <input type="number" class="field" placeholder="Phone Number" autocomplete="off" aria-autocomplete="none"><br>
+                    <input type="text" class="field" placeholder="District, Sector and Cell" autocomplete="off" aria-autocomplete="none"><br>
+                    <input type="text" class="field" placeholder="Street Address" autocomplete="off" aria-autocomplete="none"><br>
+                    <button type="button" class="btn">Register</button>
+                    <span id="Previous" class="cursor-pointer text-sm text-right mt-2 mr-2">Back</span>
+                </section>
+            </form>
+        </div>
+        <div class="flex justify-center items-center w-1/2 h-full">
+            <img class="w-40" src="../public/images/logo-white.png" alt="">
+        </div>
+    </div>
+    <script src="../public/scripts/signup.js"></script>
+</body>
+</html>

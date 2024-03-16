@@ -1,0 +1,21 @@
+.height{
+    height: 120vh;
+}
+.fcolor{
+    background-color: #3d573f;
+}
+.scolor{
+    background-color: #3d553f;
+}
+.tcolor{
+    background-color: #D2E3C8;
+}
+.wcolor{
+    background-color: #86A789;
+}
+.trans{
+    transition: .3s ease-in-out;
+}
+body::-webkit-scrollbar{
+    display: none;
+}

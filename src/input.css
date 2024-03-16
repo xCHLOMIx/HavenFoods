@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply text-sm cursor-pointer text-white w-full bg-orange-400 font-comfortaa h-10 border-none rounded-md hover:rounded-xl hover:bg-orange-500 transition-all duration-300 ease-in-out;
+}
+.container{
+    @apply flex w-2/4 h-3/5 rounded-lg border-none p-3;
+}
+.field{
+    @apply py-1 text-sm w-full border-0 border-b-2 border-green-900 outline-0 pl-2 font-comfortaa;
+}
+.link{
+    @apply py-1 border-solid hover:border-b-2 px-1 hover:text-orange-400 hover:border-orange-400 transition-all border-white border-b-2 duration-300 ease-in-out;
+}
+.sbtn{
+    @apply bg-transparent border-2 border-orange-500 rounded-sm hover:rounded-md border-solid text-bad-0 hover:bg-orange-500 hover:text-white transition-all duration-300;
+}
+.input{
+    @apply border-solid border outline-0 text-sm pl-2 w-80 rounded-sm border-bad-0;
+}
+.tbutton{
+    @apply px-1 border-2 border-orange-500 text-bad-0 hover:bg-orange-500 hover:text-white transition duration-300 ease-in-out hover:rounded-md w-28 py-1 rounded-sm;
+}
