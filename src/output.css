@@ -830,6 +830,10 @@ video {
   display: none;
 }
 
+.h-5\/6{
+  height: 83.333333%;
+}
+
 .h-8{
   height: 2rem;
 }
@@ -1859,6 +1863,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-green-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/public\/images\/contact\.png\'\)\]{
   background-image: url('../public/images/contact.png');
 }
@@ -1918,10 +1927,6 @@ video {
 
 .bg-left{
   background-position: left;
-}
-
-.bg-right{
-  background-position: right;
 }
 
 .bg-repeat{
@@ -2005,16 +2010,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pl-28{
-  padding-left: 7rem;
+.pt-2{
+  padding-top: 0.5rem;
 }
 
 .pl-9{
   padding-left: 2.25rem;
 }
 
-.pt-2{
-  padding-top: 0.5rem;
+.pt-16{
+  padding-top: 4rem;
 }
 
 .text-left{
@@ -2725,20 +2730,24 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-6\/12{
-    width: 50%;
+  .md\:w-4\/12{
+    width: 33.333333%;
   }
 
   .md\:bg-\[url\(\'\.\.\/public\/images\/about2\.png\'\)\]{
     background-image: url('../public/images/about2.png');
   }
 
+  .md\:bg-\[url\(\'\.\.\/public\/images\/contact\.png\'\)\]{
+    background-image: url('../public/images/contact.png');
+  }
+
   .md\:bg-\[url\(\'\.\.\/public\/images\/bg-og\.png\'\)\]{
     background-image: url('../public/images/bg-og.png');
   }
 
-  .md\:bg-\[url\(\'\.\.\/public\/images\/contact\.png\'\)\]{
-    background-image: url('../public/images/contact.png');
+  .md\:pl-24{
+    padding-left: 6rem;
   }
 }
 
